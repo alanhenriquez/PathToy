@@ -125,3 +125,24 @@ section.targetaForm1 form .formSubmit .containerData button{
     font-family: Roboto8;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+/* USADO EN login.html ------------------------------------------------------------------------- */
+
+section.targetaLogin1 section.targetaForm1 form .formSubmit .containerData{
+    justify-content: center;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+}
+
+section.targetaLogin1 section.targetaForm1 form .formSubmit .containerData button{
+    border-radius: 1vw;
+}
+
+/* --------------------------------------------------------------------------------------------- */
