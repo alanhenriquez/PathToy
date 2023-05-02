@@ -1,0 +1,122 @@
+/*  
+    _______________________________________________________________________________________________
+
+    descripcion: Archivo de estilos para formulario de actualizacion de datos
+    _______________________________________________________________________________________________
+
+    autor: Alan Henriquez Monterrosa
+    _______________________________________________________________________________________________
+    
+    ultima fecha: 01/05/2023
+    _______________________________________________________________________________________________
+
+    uso: 
+
+    <section class="updateDataUser">
+        <div class="title">
+            <div class="interno">
+                <p>Información del usuario</p>
+            </div>
+        </div>
+        <div class="content">
+            <form method="POST" action="archivo.php">
+                <div class="formInputs">
+                    <div class="containerData">
+                        <div class="inpuTitle">
+                            <label for="nombre">nombre:</label>
+                        </div>
+                        <div class="inpuHTML">
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre del usuario">
+                        </div>
+                    </div>
+                </div>
+                <div class="formSubmit">
+                    <div class="containerData">
+                        <button type="submit">Actualizar</button>
+                    </div>
+                </div>
+            </form>
+              
+        </div>
+    </section>
+*/
+
+*{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: Roboto10, Arial, Helvetica, sans-serif;
+    font-size: 2.6vh;
+    border-style: none;
+    border: none;
+    outline: none;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    float: left;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+
+
+section.formUser1{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+section.formUser1 .title{
+    width: 100%;
+    height: 5vw;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+section.formUser1 .title .interno{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+section.formUser1 .title .interno p{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    color: #8d8d8d;
+    font-size: 1.5vw;
+    font-family: Roboto8;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+section.formUser1 .content{
+    width: 100%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+
