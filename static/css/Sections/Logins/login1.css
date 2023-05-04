@@ -35,11 +35,23 @@ section.login1 .containerScreen .containerImage{
     float: left;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section.login1 .containerScreen .containerImage img{
     width: 102%;
     height: 102%;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+}
+
+section.login1 .containerScreen .containerImage img.min{
+    width: 102%;
+    height: auto;
     overflow: hidden;
     position: relative;
     object-fit: cover;
@@ -54,19 +66,6 @@ section.login1 .containerLogin{
     float: left;
     overflow: hidden;
     position: relative;
-}
-
-section.login1 .containerLogin .login{
-    width: 100%;
-    height: 100%;
-    top: 0%;
-    left: 0%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 section.login1 .containerLogin .login{

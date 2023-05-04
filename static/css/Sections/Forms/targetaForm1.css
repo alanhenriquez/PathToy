@@ -79,14 +79,15 @@ section.targetaForm1 form .formInputs .containerData .inpuHTML input{
     display: inline-block;
     border-radius: 1vw;
     padding-left: 1.5%;
-    color: #000000;
+    color: #b6b6b6;
     font-family: Roboto8;
     border: 0.2vw solid #dfdfdf;
+    font-size: 1.2vw;
 }
 
 section.targetaForm1 form .formInputs .containerData .inpuHTML input{
-    color: #b6b6b6;
-    font-family: Roboto8;
+    
+    
 }
 
 section.targetaForm1 form .formSubmit{
@@ -124,6 +125,7 @@ section.targetaForm1 form .formSubmit .containerData button{
     color: #ffffff;
     font-family: Roboto8;
     cursor: pointer;
+    font-size: 1.1vw;
 }
 
 
@@ -133,7 +135,7 @@ section.targetaForm1 form .formSubmit .containerData button{
 
 
 
-/* USADO EN login.html ------------------------------------------------------------------------- */
+/* USADO EN targetaLogin1.css ------------------------------------------------------------------ */
 
 section.targetaLogin1 section.targetaForm1 form .formSubmit .containerData{
     justify-content: center;
@@ -145,4 +147,6 @@ section.targetaLogin1 section.targetaForm1 form .formSubmit .containerData butto
     border-radius: 1vw;
 }
 
+
+  
 /* --------------------------------------------------------------------------------------------- */

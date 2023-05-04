@@ -18,9 +18,13 @@
             //----- AQUI AGREGA MAS CONTENIDO DE CODIGO.
         </div>
     </div>
+
 */
 
-
+@import url('./Animations/animations.css');
+@import url('./Icons/fontello-7c56770c/css/fontello.css');
+@import url('./Fonts/Fuentes-tipografia.css');
+@import url('./Sections/Notifications/notification1.css');
 
 *{
     width: auto;

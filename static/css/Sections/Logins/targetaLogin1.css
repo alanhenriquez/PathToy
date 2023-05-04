@@ -98,18 +98,22 @@ section.targetaLogin1 .signup .title p{
     float: left;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
 }
 
 section.targetaLogin1 .signup .title p a{
     width: auto;
     height: auto;
     top: 0%;
-    left: 0%;
+    left: 4%;
     float: left;
     overflow: hidden;
     position: relative;
-    margin-left: 0.2vw;
     color: #1c8aff;
+    font-size: 1.2vw;
 }
 
 section.targetaLogin1 .signup .title p a:link{
