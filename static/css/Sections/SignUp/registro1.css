@@ -1,0 +1,186 @@
+
+
+
+
+
+
+
+
+
+.registro1{
+    width: 100%;
+    height: 90%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.registro1 .title{
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.registro1 .title .cont{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registro1 .title .cont p{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    font-size: 2.5vw;
+    font-family: Roboto1;
+    color: #262626;
+}
+
+.registro1 .content{
+    width: 100%;
+    height: 85%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.registro1 .content .slide-container{
+    width: 100%;
+    height: 85%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    padding-top: 2%;
+}
+
+.registro1 .content .botones{
+    width: 100%;
+    height: 15%;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+/* ---------- */
+
+.registro1 .content .botones .botonNext,
+.registro1 .content .botones .botonPrev{
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.registro1 .content .botones .botonNext{
+    float: right;
+    justify-content: end;
+}
+
+.registro1 .content .botones .botonPrev{
+    float: left;
+    justify-content: start;
+}
+
+/* ---------- */
+
+.registro1 .content .botones .botonNext .cont,
+.registro1 .content .botones .botonPrev .cont{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-radius: 1vw;
+    transition: 0.2s;
+}
+
+.registro1 .content .botones .botonNext .cont{
+    justify-content: end;
+}
+
+.registro1 .content .botones .botonPrev .cont{
+    justify-content: start;
+}
+
+
+/* ---------- */
+
+.registro1 .content .botones .botonNext .cont:hover,
+.registro1 .content .botones .botonPrev .cont:hover{
+    background: #e9e9e9;
+}
+
+/* ---------- */
+
+.registro1 .content .botones .botonNext .cont:active > i,
+.registro1 .content .botones .botonPrev .cont:active > i{
+    transition: 0.005s;
+    transform: scale(0.8);
+}
+
+.registro1 .content .botones .botonNext .cont button,
+.registro1 .content .botones .botonPrev .cont button{
+    width: auto;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    background: none;
+    font-size: 1.6vw;
+    font-family: NotoSans2;
+    cursor: pointer;
+}
+
+.registro1 .content .botones .botonNext .cont.stopped button,
+.registro1 .content .botones .botonPrev .cont.stopped button {
+    color: #c4c4c4;
+}
+
+.registro1 .content .botones .botonNext .cont.stopped > i,
+.registro1 .content .botones .botonPrev .cont.stopped > i{
+    color: #c4c4c4;
+}
+
+
+.registro1 .content .botones .botonNext .cont > i,
+.registro1 .content .botones .botonPrev .cont > i{
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 0%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background: none;
+    font-size: 2vw;
+    font-family: NotoSans2;
+}

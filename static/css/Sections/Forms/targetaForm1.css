@@ -79,15 +79,11 @@ section.targetaForm1 form .formInputs .containerData .inpuHTML input{
     display: inline-block;
     border-radius: 1vw;
     padding-left: 1.5%;
+    padding-right: 1.5%;
     color: #b6b6b6;
     font-family: Roboto8;
     border: 0.2vw solid #dfdfdf;
     font-size: 1.2vw;
-}
-
-section.targetaForm1 form .formInputs .containerData .inpuHTML input{
-    
-    
 }
 
 section.targetaForm1 form .formSubmit{
@@ -146,7 +142,20 @@ section.targetaLogin1 section.targetaForm1 form .formSubmit .containerData{
 section.targetaLogin1 section.targetaForm1 form .formSubmit .containerData button{
     border-radius: 1vw;
 }
+  
+/* USADO EN registro1.css ------------------------------------------------------------------ */
 
+section.registro1 section.targetaForm1 form .formSubmit .containerData{
+    justify-content: end;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+}
 
+section.registro1 section.targetaForm1 form .formSubmit .containerData button{
+    border-radius: 1vw;
+    text-transform: uppercase;
+}
   
 /* --------------------------------------------------------------------------------------------- */
+
+

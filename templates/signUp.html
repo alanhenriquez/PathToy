@@ -6,35 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../static/css/main.css" type="text/css">
-    <link rel="stylesheet" href="../static/css/Sections/Logins/login1.css" type="text/css">
-    <link rel="stylesheet" href="../static/css/Sections/Logins/targetaLogin1.css" type="text/css">
     <link rel="stylesheet" href="../static/css/Sections/Forms/targetaForm1.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/Sections/SignUp/registro1.css" type="text/css">
 </head>
 <body>
     <div class="main">
         <div class="body">
-            <div class="slide-container">
-                <div class="slide">Slide 1</div>
-                <div class="slide">Slide 2</div>
-                <div class="slide">Slide 3</div>
-            </div>
-            <button id="prevBtn">Anterior</button>
-            <button id="nextBtn">Siguiente</button>
+            <section class="registro1">
+                <div class="title">
+                    <div class="cont">
+                        <p>Registro</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="slide-container">
+                        <section class="targetaForm1">
+                            <form>
+                                <div class="slide">
+                                    <div class="formInputs">
+                                        <div class="containerData">
+                                            <div class="inpuTitle">
+                                                <label for="correo">Ingresa un correo electronico:</label>
+                                            </div>
+                                            <div class="inpuHTML">
+                                                <input type="text" id="correo" name="correo" placeholder="correo">
+                                            </div>
+                                        </div>
+                                        <div class="containerData">
+                                            <div class="inpuTitle">
+                                                <label for="password">Y una contraseña:</label>
+                                            </div>
+                                            <div class="inpuHTML">
+                                                <input type="text" id="password" name="password" placeholder="contraseña">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="formInputs">
+                                        <div class="containerData">
+                                            <div class="inpuTitle">
+                                                <label for="fullName">Ingresa tu nombre completo:</label>
+                                            </div>
+                                            <div class="inpuHTML">
+                                                <input type="text" id="fullName" name="fullName" placeholder="nombre completo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="formInputs">
+                                        <div class="containerData">
+                                            <div class="inpuTitle">
+                                                <label for="userName">Ingresa tu nobre de usuario:</label>
+                                            </div>
+                                            <div class="inpuHTML">
+                                                <input type="text" id="userName" name="userName" placeholder="nombre de usuario">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="formInputs">
+                                        <div class="containerData">
+                                            <div class="inpuTitle">
+                                                <label for="birthDate">Fecha de nacimiento:</label>
+                                            </div>
+                                            <div class="inpuHTML">
+                                                <input type="date" id="birthDate" name="birthDate" placeholder="fecha de nacimiento">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="formSubmit">
+                                        <div class="containerData">
+                                            <button type="submit">Crear cuenta</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                    <div class="botones">
+                        <div class="botonPrev">
+                            <div class="cont">
+                                <i class="icon-left-circled2 iconPrev"></i>
+                                <button class="prev" id="prevBtn">Anterior</button>
+                            </div>
+                            
+                        </div>
+                        <div class="botonNext">
+                            <div class="cont">
+                                <button class="next" id="nextBtn">Siguiente</button>
+                                <i class="icon-right-circled2 iconNext"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
     <div class="modals">
-        <section class="notification1">
-            <div class="icon">
-                <div class="cont">
-                    <img src="https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png">
-                </div>
-            </div>
-            <div class="message">
-                <div class="cont">
-                    <p>Inicio de sesion exitoso</p>
-                </div>
-            </div>
-        </section>
+        
     </div>
     <script src="../static/js/main.js"></script>
 </body>
